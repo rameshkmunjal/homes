@@ -1,0 +1,33 @@
+
+---------------------------------------------------------------------------
+                        PROJECT - Home : Angular
+---------------------------------------------------------------------------
+1. npm new home
+---------------------------------------------------------------------------
+2. npm install bootstrap@3 jquery --save
+---------------------------------------------------------------------------
+3. include bootstrap css file in styles array of angular.json
+
+    "node_modules/bootstrap/dist/css/bootstrap.min.css"
+---------------------------------------------------------------------------
+4. include following jquery/js bootstrap packages in scripts array of 
+   angular.json
+
+   "node_modules/jquery/dist/jquery.min.js",
+   "node_modules/bootstrap/dist/js/bootstrap.min.js"
+---------------------------------------------------------------------------
+5.  include modules - 
+	RouterModule - 
+	HttpClientModule-
+	FormsModule-
+	ToastrModule -
+
+
+---------------------------------------------------------------------------
+6. create Components - Home , HomeView, HomeCreate 
+
+---------------------------------------------------------------------------
+7. create a service file for http service calls - HomeService
+
+---------------------------------------------------------------------------
+8.

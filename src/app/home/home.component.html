@@ -1,0 +1,24 @@
+<div class="container-fluid" *ngIf="allHomes.length > 0">
+    <div class="row" >
+        <div class="col-sm-6 col-md-4 col-lg-3"*ngFor="let home of allHomes" id="box" >
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <ul class="list-group">
+                <li class="list-group-item"><b>City:</b>{{home.city}}</li>
+                <li class="list-group-item"><b>Type:</b>{{home.type}}</li>
+                <li class="list-group-item"><b>Size:</b>{{home.size}}</li>
+                <li class="list-group-item"><b>Price:</b>{{home.price}}</li>
+                <li class="list-group-item"><b>Developer:</b>{{home.developer}}</li>
+                <li class="list-group-item"><b>Status:</b>{{home.status}}</li>             
+              </ul>
+              <div class="text-center">
+                <button class="btn btn-warning   btn-sm" [routerLink]="['/view', home.id]">View</button>
+            </div> 
+            </div>
+            
+          </div>
+                  
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-4">
+      <form>
+        <div class="form-group">
+            <label for="city">City:</label>
+            <input type="text" [(ngModel)]="city" name="city" class="form-control" />
+        </div>
+        
+        <div class="form-group">
+            <label for="type">Type:</label>
+            <input type="text" [(ngModel)]="type" name="type" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="size">Size:</label>
+            <input type="text" [(ngModel)]="size" name="size" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="developer">Developer:</label>
+            <input type="text" [(ngModel)]="developer" name="developer" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="price">Price:</label>
+            <input type="text" [(ngModel)]="price" name="price" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="status">Status:</label>
+            <input type="text" [(ngModel)]="status" name="status" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-danger btn-lg" (click)="createHome()">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

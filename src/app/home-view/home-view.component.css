@@ -1,0 +1,12 @@
+.btn-holder{
+    text-align:center;
+}
+
+#btn-ul{
+    list-style-type:none;    
+}
+
+#btn-ul li{
+    display:inline;
+    margin-left:5px;
+}
